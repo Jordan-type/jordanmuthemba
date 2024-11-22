@@ -1,0 +1,106 @@
+Arguments: 
+  C:\Users\Admin\AppData\Roaming\nvm\v18.0.0\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\Admin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Admin\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python310\Scripts;C:\Python310;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin;C:\Users\Admin\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Microsoft Windows Performance Toolkit;C:\Program Files\dotnet;C:\Program Files\CMake\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files (x86)\GnuPG\bin;C:\Users\Admin\AppData\Local\pnpm;C:\Users\Admin\.console-ninja\.bin;C:\Users\Admin\.local\share\solana\install\active_release\bin;C:\Users\Admin\.cargo\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\AppData\Local\Yarn\bin;C:\Users\Admin\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\heroku\bin;C:\Users\Admin\.dotnet\tools;C:\Program Files (x86)\MongoDB Atlas CLI;C:\Users\Admin\AppData\Local\GitHubDesktop\bin;C:\Users\Admin\AppData\Local\Markdown Monster;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;C:\Users\Admin\.foundry\bin
+
+Yarn version: 
+  1.23.0-20200615.1913
+
+Node version: 
+  18.0.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rehype-plugins: Not found
+      at params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66097:18)
+      at self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140749:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141721:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141643:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1344:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "enji.dev",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint",
+      "lint:all": "concurrently \"yarn:lint\" \"yarn:lint:types\" \"yarn:lint:style\"",
+      "lint:types": "tsc --noEmit",
+      "lint:style": "prettier --check .",
+      "analyze": "cross-env ANALYZE=true yarn build",
+      "postbuild": "next-sitemap",
+      "db:generate": "prisma generate"
+    },
+    "dependencies": {
+      "@headlessui/react": "^1.7.7",
+      "@headlessui/tailwindcss": "^0.1.2",
+      "@mdx-js/loader": "^2.2.1",
+      "@mdx-js/react": "^2.2.1",
+      "@next/bundle-analyzer": "^13.1.1",
+      "@next/font": "^13.1.1",
+      "@next/mdx": "^13.1.1",
+      "@next/third-parties": "^14.1.3",
+      "@prisma/client": "^4.8.1",
+      "@vercel/og": "^0.0.22",
+      "axios": "^1.2.2",
+      "clsx": "^1.2.1",
+      "dayjs": "^1.11.7",
+      "framer-motion": "7.7.0",
+      "front-matter": "^4.0.2",
+      "jsonata": "^2.0.1",
+      "lodash": "^4.17.21",
+      "next": "^13.1.1",
+      "next-themes": "^0.2.1",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-hot-toast": "^2.4.0",
+      "rehype-plugins": "workspace:*",
+      "remark-plugins": "workspace:*",
+      "slug": "^8.2.2",
+      "swr": "^2.0.0",
+      "tailwindcss-accent": "^2.1.2",
+      "use-local-storage-state": "^18.1.2",
+      "zod": "^3.20.2"
+    },
+    "devDependencies": {
+      "@types/lodash": "^4.14.191",
+      "@types/mdx": "^2.0.3",
+      "@types/node": "18.11.18",
+      "@types/react": "^18.0.26",
+      "@types/react-dom": "^18.0.10",
+      "@types/slug": "^5.0.3",
+      "autoprefixer": "^10.4.13",
+      "concurrently": "^7.6.0",
+      "cross-env": "^7.0.3",
+      "eslint-config-next-typescript": "workspace:*",
+      "mini-svg-data-uri": "^1.4.4",
+      "next-sitemap": "^3.1.43",
+      "postcss": "^8.4.20",
+      "postcss-import": "^15.1.0",
+      "prisma": "^4.8.1",
+      "tailwindcss": "^3.2.4",
+      "tsconfig": "workspace:*",
+      "typescript": "^4.9.4"
+    },
+    "engines": {
+      "node": "^18.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
