@@ -12,7 +12,6 @@
     "lint:style": "prettier --check .",
     "analyze": "cross-env ANALYZE=true yarn build",
     "postbuild": "next-sitemap",
-    "setup": "pnpm install && husky install",
     "db:generate": "prisma generate --schema=./prisma/schema.prisma"
   },
   "dependencies": {
