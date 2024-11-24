@@ -12,7 +12,7 @@
     "lint:style": "prettier --check .",
     "analyze": "cross-env ANALYZE=true yarn build",
     "postbuild": "next-sitemap",
-    "db:generate": "NODE_ENV=production prisma generate --schema=./prisma/schema.prisma"
+    "db:generate": "prisma generate --schema=./prisma/schema.prisma"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.7",
