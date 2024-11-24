@@ -262,6 +262,9 @@ importers:
       slug:
         specifier: ^8.2.2
         version: 8.2.2
+      tsup:
+        specifier: ^6.5.0
+        version: 6.5.0(postcss@8.4.21)(typescript@4.9.4)
       zod:
         specifier: ^3.20.2
         version: 3.20.2
@@ -275,9 +278,6 @@ importers:
       tsconfig:
         specifier: workspace:*
         version: link:../tsconfig
-      tsup:
-        specifier: ^6.5.0
-        version: 6.5.0(postcss@8.4.21)(typescript@4.9.4)
       unified:
         specifier: ^10.1.2
         version: 10.1.2
