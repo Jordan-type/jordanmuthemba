@@ -12,7 +12,7 @@
     "lint:style": "prettier --check .",
     "analyze": "cross-env ANALYZE=true yarn build",
     "postbuild": "next-sitemap",
-    "postinstall": "husky install",
+    "setup": "pnpm install && husky install",
     "db:generate": "prisma generate --schema=./prisma/schema.prisma"
   },
   "dependencies": {
@@ -57,7 +57,6 @@
     "concurrently": "^7.6.0",
     "cross-env": "^7.0.3",
     "eslint-config-next-typescript": "file:../../packages/eslint-config-next-typescript",
-    "husky": "^9.1.7",
     "mini-svg-data-uri": "^1.4.4",
     "next-sitemap": "^3.1.43",
     "postcss": "^8.4.20",

@@ -141,9 +141,6 @@ importers:
       eslint-config-next-typescript:
         specifier: file:../../packages/eslint-config-next-typescript
         version: link:../../packages/eslint-config-next-typescript
-      husky:
-        specifier: ^9.1.7
-        version: 9.1.7
       mini-svg-data-uri:
         specifier: ^1.4.4
         version: 1.4.4
@@ -1639,11 +1636,6 @@ packages:
   human-signals@2.1.0:
     resolution: {integrity: sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==}
     engines: {node: '>=10.17.0'}
-
-  husky@9.1.7:
-    resolution: {integrity: sha512-5gs5ytaNjBrh5Ow3zrvdUUY+0VxIuWVL4i9irt6friV+BqdCfmV11CQTWMiBYWHbXhco+J1kHfTOUkePhCDvMA==}
-    engines: {node: '>=18'}
-    hasBin: true
 
   ignore@5.2.4:
     resolution: {integrity: sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==}
@@ -4494,8 +4486,6 @@ snapshots:
   hey-listen@1.0.8: {}
 
   human-signals@2.1.0: {}
-
-  husky@9.1.7: {}
 
   ignore@5.2.4: {}
 
