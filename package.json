@@ -9,11 +9,13 @@
     "clean": "turbo run clean",
     "format": "prettier --write ."
   },
+  "dependencies": {
+    "turbo": "^2.3.1"
+  },
   "devDependencies": {
     "eslint": "^8.31.0",
     "prettier": "^2.8.1",
-    "prettier-plugin-tailwindcss": "^0.2.1",
-    "turbo": "^2.3.1"
+    "prettier-plugin-tailwindcss": "^0.2.1"
   },
   "packageManager": "pnpm@7.22.0"
 }
