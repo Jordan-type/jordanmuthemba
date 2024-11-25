@@ -1,8 +1,8 @@
 import clsx from 'clsx';
 
-import { HashtagIcon } from '@/components/Icons';
+import { HashtagIcon } from '../../Icons';
 
-import { getSlug } from '@/helpers/mdx';
+import { getSlug } from '../../../helpers/mdx';
 
 import type { DetailedHTMLProps, HTMLAttributes } from 'react';
 

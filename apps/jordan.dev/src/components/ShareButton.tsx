@@ -9,9 +9,9 @@ import {
   NoteIcon,
   ShareIcon,
   TwitterIcon,
-} from '@/components/Icons';
+} from './Icons';
 
-import useCurrentUrl from '@/hooks/useCurrentUrl';
+import useCurrentUrl from '../hooks/useCurrentUrl';
 
 import type { PropsWithChildren, Ref } from 'react';
 

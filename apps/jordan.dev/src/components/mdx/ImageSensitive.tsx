@@ -3,10 +3,10 @@
 import clsx from 'clsx';
 import { useState } from 'react';
 
-import { EyeSlash } from '@/components/Icons';
-import Image from '@/components/mdx/Image';
+import { EyeSlash } from '../Icons';
+import Image from './Image';
 
-import type { ImageProps } from '@/components/mdx/Image';
+import type { ImageProps } from './Image';
 
 type ImageSensitiveProps = ImageProps & {
   message?: string;

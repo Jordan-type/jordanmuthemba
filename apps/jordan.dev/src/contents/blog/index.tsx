@@ -1,10 +1,10 @@
 import clsx from 'clsx';
 
-import useContentMeta from '@/hooks/useContentMeta';
+import useContentMeta from '../../hooks/useContentMeta';
 
-import PostPreview from '@/contents/blog/PostPreview';
+import PostPreview from './PostPreview';
 
-import type { TPostFrontMatter } from '@/types';
+import type { TPostFrontMatter } from '../../types';
 
 const PINNED_POST = 'the-2023-retrospective';
 

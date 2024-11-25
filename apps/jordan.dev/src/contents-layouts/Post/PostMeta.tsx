@@ -1,10 +1,10 @@
 import clsx from 'clsx';
 
-import { CalendarIcon, LanguageIcon } from '@/components/Icons';
+import { CalendarIcon, LanguageIcon } from '../../components/Icons';
 
-import { formatDate, formatDateISO, formatLang } from '@/helpers/post';
+import { formatDate, formatDateISO, formatLang } from '../../helpers/post';
 
-import { TPostFrontMatter } from '@/types';
+import { TPostFrontMatter } from '../../types';
 
 interface PostMetaProps {
   date: TPostFrontMatter['date'];

@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 
-import { GlobalStateContext } from '@/providers/GlobalStateProvider';
+import { GlobalStateContext } from '../providers/GlobalStateProvider';
 
 function useGlobal() {
   return useContext(GlobalStateContext);

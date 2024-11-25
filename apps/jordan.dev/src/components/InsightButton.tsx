@@ -2,9 +2,9 @@ import { Popover } from '@headlessui/react';
 import clsx from 'clsx';
 import { m } from 'framer-motion';
 
-import { InsightIcon } from '@/components/Icons';
+import { InsightIcon } from './Icons';
 
-import { formatNumber } from '@/helpers/post';
+import { formatNumber } from '../helpers/post';
 
 const animation = {
   hide: { opacity: 0, y: 16 },

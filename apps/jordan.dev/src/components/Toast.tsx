@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import { m } from 'framer-motion';
 import { toast } from 'react-hot-toast';
 
-import { InfoIcon, XCircleIcon } from '@/components/Icons';
+import { InfoIcon, XCircleIcon } from './Icons';
 
 import type { Toast as TToast } from 'react-hot-toast';
 

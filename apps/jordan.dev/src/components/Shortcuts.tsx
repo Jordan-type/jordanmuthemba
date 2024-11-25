@@ -1,12 +1,12 @@
 import { useEffect, useRef } from 'react';
 import { toast } from 'react-hot-toast';
 
-import Toast from '@/components/Toast';
+import Toast from './Toast';
 
-import useFocusMode from '@/hooks/useFocusMode';
-import useGlobal from '@/hooks/useGlobal';
-import useShortcut from '@/hooks/useShortcut';
-import useTheme from '@/hooks/useTheme';
+import useFocusMode from '../hooks/useFocusMode';
+import useGlobal from '../hooks/useGlobal';
+import useShortcut from '../hooks/useShortcut';
+import useTheme from '../hooks/useTheme';
 
 const focusToast = {
   title: 'Focus Turned {STATUS}',

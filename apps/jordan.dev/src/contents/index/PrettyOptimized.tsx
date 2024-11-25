@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 
-import SectionTitle from '@/components/sections/SectionTitle';
+import SectionTitle from '../../components/sections/SectionTitle';
 
 function PrettyOptimized() {
   return (

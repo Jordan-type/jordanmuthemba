@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 
-import { formatLang } from '@/helpers/post';
+import { formatLang } from '../../helpers/post';
 
-import type { TPageOgImage, TPostOgImage } from '@/types';
+import type { TPageOgImage, TPostOgImage } from '../../types';
 import type { CSSProperties } from 'react';
 
 const styles: Record<string, CSSProperties> = {

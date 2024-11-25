@@ -2,11 +2,11 @@ import clsx from 'clsx';
 import { m } from 'framer-motion';
 import Link from 'next/link';
 
-import useContentActivity from '@/hooks/useContentActivity';
+import useContentActivity from '../hooks/useContentActivity';
 
-import { relativeTime } from '@/helpers/date';
+import { relativeTime } from '../helpers/date';
 
-import type { TContentActivity, TContentActivityReaction } from '@/types';
+import type { TContentActivity, TContentActivityReaction } from '../types';
 
 interface ActivityItemProps {
   data: TContentActivity;

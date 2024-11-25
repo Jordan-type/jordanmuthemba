@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 
-import { QuoteIcon } from '@/components/Icons';
+import { QuoteIcon } from '../../components/Icons';
 
 function Quote() {
   return (

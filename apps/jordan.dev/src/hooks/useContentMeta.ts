@@ -1,8 +1,8 @@
 import useSWR from 'swr';
 
-import fetcher from '@/utils/fetcher';
+import fetcher from '../utils/fetcher';
 
-import type { TContentMeta } from '@/types';
+import type { TContentMeta } from '../types';
 
 export default function useContentMeta() {
   const {

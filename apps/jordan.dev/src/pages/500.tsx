@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import Error500Contents from '@/contents/500';
+import Error500Contents from '../contents/500';
 
 import type { ReactElement } from 'react';
 

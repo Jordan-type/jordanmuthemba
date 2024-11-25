@@ -2,7 +2,7 @@ import frontMatter from 'front-matter';
 import fs from 'fs';
 import path from 'path';
 
-import type { TPostFrontMatter } from '@/types';
+import type { TPostFrontMatter } from '../types';
 
 const postsDirectory = path.join(process.cwd(), 'src/pages/blog');
 

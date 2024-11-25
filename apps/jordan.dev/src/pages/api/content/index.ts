@@ -1,6 +1,6 @@
-import { getAllContentMeta } from '@/lib/meta';
+import { getAllContentMeta } from '../../../lib/meta';
 
-import type { TApiResponse, TContentMeta } from '@/types';
+import type { TApiResponse, TContentMeta } from '../../../types';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 export default async function handler(

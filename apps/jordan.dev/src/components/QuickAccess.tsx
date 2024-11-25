@@ -3,13 +3,13 @@ import clsx from 'clsx';
 import { m } from 'framer-motion';
 import { useRef } from 'react';
 
-import ActionCenter from '@/components/ActionCenter';
-import Activity from '@/components/Activity';
-import { XIcon } from '@/components/Icons';
-import NewPosts from '@/components/NewPosts';
-import TipShortcuts from '@/components/TipShortcuts';
+import ActionCenter from './ActionCenter';
+import Activity from './Activity';
+import { XIcon } from './Icons';
+import NewPosts from './NewPosts';
+import TipShortcuts from './TipShortcuts';
 
-import useGlobal from '@/hooks/useGlobal';
+import useGlobal from '../hooks/useGlobal';
 
 const animation = {
   hide: { opacity: 0 },

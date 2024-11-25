@@ -1,10 +1,10 @@
 import { ContentType } from '@prisma/client';
 import { z } from 'zod';
 
-import { getSessionId } from '@/helpers/server';
-import { getViewsBy, setView } from '@/lib/meta';
+import { getSessionId } from '../../../helpers/server';
+import { getViewsBy, setView } from '../../../lib/meta';
 
-import { MAX_VIEWS_PER_SESSION } from '@/constants/app';
+import { MAX_VIEWS_PER_SESSION } from '../../../constants/app';
 
 import type { NextApiRequest, NextApiResponse } from 'next';
 

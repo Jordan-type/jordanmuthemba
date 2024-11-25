@@ -4,7 +4,7 @@ import { m } from 'framer-motion';
 import Link from 'next/link';
 import { forwardRef } from 'react';
 
-import { ChevronRightIcon } from '@/components/Icons';
+import { ChevronRightIcon } from '../Icons';
 
 import type { HTMLAttributes, Ref } from 'react';
 import type { UrlObject } from 'url';

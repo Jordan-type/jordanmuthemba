@@ -1,10 +1,10 @@
 import clsx from 'clsx';
 import React from 'react';
 
-import { ChevronRightIcon } from '@/components/Icons';
-import NavLink from '@/components/navigations/NavLink';
+import { ChevronRightIcon } from '../Icons';
+import NavLink from './NavLink';
 
-import type { NavLinkProps } from '@/components/navigations/NavLink';
+import type { NavLinkProps } from './NavLink';
 
 interface NavLinkExpandedProps {
   title: string;

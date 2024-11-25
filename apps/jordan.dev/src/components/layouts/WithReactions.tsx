@@ -1,9 +1,9 @@
 import clsx from 'clsx';
 
-import WithTableOfContentsMock from '@/components/layouts/WithTableOfContentsMock';
-import Reactions from '@/components/Reactions';
+import WithTableOfContentsMock from './WithTableOfContentsMock';
+import Reactions from '../Reactions';
 
-import type { ReactionsProps } from '@/components/Reactions';
+import type { ReactionsProps } from '../Reactions';
 
 function WithReactions(props: ReactionsProps) {
   return (

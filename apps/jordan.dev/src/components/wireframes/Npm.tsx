@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 
-import { TypeScriptIcon } from '@/components/Icons';
-import { SkeletonSm } from '@/components/wireframes/Skeletons';
+import { TypeScriptIcon } from '../Icons';
+import { SkeletonSm } from './Skeletons';
 
 interface NpmWireframeProps {
   packageName: string;

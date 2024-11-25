@@ -3,10 +3,10 @@ import merge from 'lodash/merge';
 import { useEffect, useRef } from 'react';
 import useSWR from 'swr';
 
-import fetcher from '@/utils/fetcher';
-import { postReaction, postShare, postView } from '@/helpers/api';
+import fetcher from '../utils/fetcher';
+import { postReaction, postShare, postView } from '../helpers/api';
 
-import type { TContentMetaDetail } from '@/types';
+import type { TContentMetaDetail } from '../types';
 
 const INITIAL_VALUE: TContentMetaDetail = {
   meta: {

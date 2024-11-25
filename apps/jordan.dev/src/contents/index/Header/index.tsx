@@ -1,9 +1,9 @@
 import clsx from 'clsx';
 
-import HeaderCta from '@/contents/index/Header/HeaderCta';
-import HeaderImage from '@/contents/index/Header/HeaderImage';
-import HeaderTechStack from '@/contents/index/Header/HeaderTechStack';
-import HeaderTitle from '@/contents/index/Header/HeaderTitle';
+import HeaderCta from './HeaderCta';
+import HeaderImage from './HeaderImage';
+import HeaderTechStack from './HeaderTechStack';
+import HeaderTitle from './HeaderTitle';
 
 function Header() {
   return (

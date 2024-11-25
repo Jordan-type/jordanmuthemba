@@ -9,7 +9,7 @@ import {
   TailwindCssIcon,
   TypeScriptIcon,
   VSCodeIcon,
-} from '@/components/Icons';
+} from '../../../components/Icons';
 
 const animation = {
   hide: { x: -8, opacity: 0 },

@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 
-import Portal from '@/components/Portal';
+import Portal from '../Portal';
 
 interface SkipNavigationLinkProps {
   title: string;

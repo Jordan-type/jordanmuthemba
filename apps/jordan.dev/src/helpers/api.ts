@@ -1,7 +1,7 @@
 import { ContentType, ReactionType, ShareType } from '@prisma/client';
 import axios from 'axios';
 
-import { TApiResponse } from '@/types';
+import { TApiResponse } from '../types';
 
 export const postReaction = async ({
   slug,

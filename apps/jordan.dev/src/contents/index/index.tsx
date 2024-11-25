@@ -1,13 +1,13 @@
 import clsx from 'clsx';
 
-import { CodeIcon, HeartIcon, SparklesIcon } from '@/components/Icons';
+import { CodeIcon, HeartIcon, SparklesIcon } from '../../components/Icons';
 
-import CleanIntuitive from '@/contents/index/CleanIntuitive';
-import DetailOriented from '@/contents/index/DetailOriented';
-import FeaturedCard from '@/contents/index/FeaturedCard';
-import Header from '@/contents/index/Header';
-import PrettyOptimized from '@/contents/index/PrettyOptimized';
-import Quote from '@/contents/index/Quote';
+import CleanIntuitive from './CleanIntuitive';
+import DetailOriented from './DetailOriented';
+import FeaturedCard from './FeaturedCard';
+import Header from './Header';
+import PrettyOptimized from './PrettyOptimized';
+import Quote from './Quote';
 
 function FeaturedCardSection() {
   return (

@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 
-import { TProjectFrontMatter } from '@/types';
+import { TProjectFrontMatter } from '../../types';
 
 interface ProjectFooterProps {
   githubUrl?: TProjectFrontMatter['githubUrl'];

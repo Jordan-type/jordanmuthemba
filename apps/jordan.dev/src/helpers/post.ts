@@ -1,7 +1,7 @@
-import dayjs from '@/utils/dayjs';
-import { getBaseUrl, getParams } from '@/helpers/url';
+import dayjs from '../utils/dayjs';
+import { getBaseUrl, getParams } from './url';
 
-import type { TPostFrontMatter, TPostOgImage } from '@/types';
+import type { TPostFrontMatter, TPostOgImage } from '../types';
 
 export const formatDate = (date: string) => {
   if (dayjs(date).isValid()) {

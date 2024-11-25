@@ -1,6 +1,6 @@
-import Code from '@/components/mdx/Code';
+import Code from '../Code';
 
-import { formatLang } from '@/helpers/mdx';
+import { formatLang } from '../../../helpers/mdx';
 
 import type { DetailedHTMLProps, HTMLAttributes } from 'react';
 

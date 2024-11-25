@@ -1,9 +1,9 @@
 import clsx from 'clsx';
 
-import { QuickAccessIcon } from '@/components/Icons';
-import Kbd from '@/components/Kbd';
+import { QuickAccessIcon } from '../Icons';
+import Kbd from '../Kbd';
 
-import useGlobal from '@/hooks/useGlobal';
+import useGlobal from '../../hooks/useGlobal';
 
 function NavIconQuickAccess() {
   const { setQuickAccessOpen } = useGlobal();

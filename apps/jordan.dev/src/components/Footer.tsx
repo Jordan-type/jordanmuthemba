@@ -6,9 +6,9 @@ import {
   FigmaIcon,
   GitHubIcon,
   TwitterIcon,
-} from '@/components/Icons';
+} from './Icons';
 
-import dayjs from '@/utils/dayjs';
+import dayjs from '../utils/dayjs';
 
 function LastUpdate() {
   return (

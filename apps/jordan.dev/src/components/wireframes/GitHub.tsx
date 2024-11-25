@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 
-import { SkeletonSm } from '@/components/wireframes/Skeletons';
+import { SkeletonSm } from './Skeletons';
 
 interface GithubWireframeProps {
   author?: string;

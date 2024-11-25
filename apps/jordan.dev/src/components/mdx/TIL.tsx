@@ -1,8 +1,8 @@
 import clsx from 'clsx';
 
-import { CheckCircleIcon, XCircleIcon } from '@/components/Icons';
+import { CheckCircleIcon, XCircleIcon } from '../Icons';
 
-import { formatDate } from '@/helpers/post';
+import { formatDate } from '../../helpers/post';
 
 import type { PropsWithChildren, ReactElement } from 'react';
 

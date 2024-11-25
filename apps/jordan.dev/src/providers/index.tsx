@@ -1,11 +1,11 @@
 import { MDXProvider } from '@mdx-js/react';
 import { ThemeProvider } from 'next-themes';
 
-import mdxCustomComponents from '@/components/mdx/custom-components';
-import ColorAccentProvider from '@/providers/ColorAccentProvider';
-import FocusModeProvider from '@/providers/FocusModeProvider';
-import FramerMotionProvider from '@/providers/FramerMotionProvider';
-import GlobalStateProvider from '@/providers/GlobalStateProvider';
+import mdxCustomComponents from '../components/mdx/custom-components';
+import ColorAccentProvider from './ColorAccentProvider';
+import FocusModeProvider from './FocusModeProvider';
+import FramerMotionProvider from './FramerMotionProvider';
+import GlobalStateProvider from './GlobalStateProvider';
 
 import type { PropsWithChildren } from 'react';
 

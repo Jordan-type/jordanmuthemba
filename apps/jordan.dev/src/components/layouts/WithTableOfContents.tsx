@@ -1,8 +1,8 @@
 import clsx from 'clsx';
 
-import TableOfContents from '@/components/TableOfContents';
+import TableOfContents from '../TableOfContents';
 
-import type { TTableOfContents } from '@/types';
+import type { TTableOfContents } from '../../types';
 import type { PropsWithChildren } from 'react';
 
 interface PageWithMDXProps {

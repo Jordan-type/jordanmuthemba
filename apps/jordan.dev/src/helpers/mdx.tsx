@@ -1,6 +1,6 @@
 import slug from 'slug';
 
-import { NpmIcon, PnpmIcon, YarnIcon } from '@/components/Icons';
+import { NpmIcon, PnpmIcon, YarnIcon } from '../components/Icons';
 import {
   CssIcon,
   FileIcon,
@@ -10,7 +10,7 @@ import {
   ReactIcon,
   TailwindIcon,
   TypeScriptIcon,
-} from '@/components/IconsFile';
+} from '../components/IconsFile';
 
 import type { ReactElement, ReactNode } from 'react';
 

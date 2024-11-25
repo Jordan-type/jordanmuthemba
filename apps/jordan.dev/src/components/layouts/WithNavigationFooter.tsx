@@ -1,8 +1,8 @@
-import Footer from '@/components/Footer';
-import Navigation from '@/components/Navigation';
-import QuickAccess from '@/components/QuickAccess';
-import Shortcuts from '@/components/Shortcuts';
-import Toaster from '@/components/Toaster';
+import Footer from '../Footer';
+import Navigation from '../Navigation';
+import QuickAccess from '../QuickAccess';
+import Shortcuts from '../Shortcuts';
+import Toaster from '../Toaster';
 
 import type { PropsWithChildren } from 'react';
 

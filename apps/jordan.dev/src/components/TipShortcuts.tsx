@@ -2,8 +2,8 @@ import clsx from 'clsx';
 import { m } from 'framer-motion';
 import { Fragment } from 'react';
 
-import { KeyboardIcon } from '@/components/Icons';
-import Kbd from '@/components/Kbd';
+import { KeyboardIcon } from './Icons';
+import Kbd from './Kbd';
 
 const shortcuts: Array<{
   title: string;

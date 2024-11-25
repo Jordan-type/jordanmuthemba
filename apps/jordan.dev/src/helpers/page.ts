@@ -1,6 +1,6 @@
-import { getBaseUrl, getParams } from '@/helpers/url';
+import { getBaseUrl, getParams } from './url';
 
-import type { TPageOgImage } from '@/types';
+import type { TPageOgImage } from '../types';
 
 export const getPageOgImageUrl = ({
   caption,

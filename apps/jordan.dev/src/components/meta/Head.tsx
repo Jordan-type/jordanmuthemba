@@ -1,6 +1,6 @@
 import NextHead from 'next/head';
 
-import useCurrentUrl from '@/hooks/useCurrentUrl';
+import useCurrentUrl from '../../hooks/useCurrentUrl';
 
 interface HeadProps {
   title: string;

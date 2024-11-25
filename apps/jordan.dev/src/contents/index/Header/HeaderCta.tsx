@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import { m, useReducedMotion } from 'framer-motion';
 import Link from 'next/link';
 
-import { DocumentIcon } from '@/components/Icons';
+import { DocumentIcon } from '../../../components/Icons';
 
 const animation = {
   hide: {

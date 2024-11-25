@@ -1,10 +1,10 @@
 import clsx from 'clsx';
 import { m } from 'framer-motion';
 
-import useOnScroll from '@/hooks/useOnScroll';
-import useScrollSpy from '@/hooks/useScrollSpy';
+import useOnScroll from '../hooks/useOnScroll';
+import useScrollSpy from '../hooks/useScrollSpy';
 
-import type { TTableOfContentsItem } from '@/types';
+import type { TTableOfContentsItem } from '../types';
 
 interface TableOfContentsLinkProps extends TTableOfContentsItem {
   active?: boolean;

@@ -2,12 +2,12 @@ import clsx from 'clsx';
 import { m } from 'framer-motion';
 import Link from 'next/link';
 
-import CountUp from '@/components/CountUp';
-import { ChevronRightIcon, InsightIcon, PinIcon } from '@/components/Icons';
+import CountUp from '../../components/CountUp';
+import { ChevronRightIcon, InsightIcon, PinIcon } from '../../components/Icons';
 
-import { formatDateRelative, formatLang } from '@/helpers/post';
+import { formatDateRelative, formatLang } from '../../helpers/post';
 
-import type { TPostFrontMatter } from '@/types';
+import type { TPostFrontMatter } from '../../types';
 
 type PostPreviewProps = TPostFrontMatter & {
   slug: string;

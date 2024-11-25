@@ -1,11 +1,11 @@
-import WithTableOfContents from '@/components/layouts/WithTableOfContents';
-import Head from '@/components/meta/Head';
-import SkipNavigation from '@/components/navigations/SkipNavigation';
-import PageHeader from '@/components/PageHeader';
+import WithTableOfContents from '../components/layouts/WithTableOfContents';
+import Head from '../components/meta/Head';
+import SkipNavigation from '../components/navigations/SkipNavigation';
+import PageHeader from '../components/PageHeader';
 
-import { getPageOgImageUrl } from '@/helpers/page';
+import { getPageOgImageUrl } from '../helpers/page';
 
-import type { TPageFrontMatter, TTableOfContents } from '@/types';
+import type { TPageFrontMatter, TTableOfContents } from '../types';
 import type { PropsWithChildren } from 'react';
 
 interface PageWithMDXProps {

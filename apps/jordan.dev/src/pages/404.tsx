@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import Error404Contents from '@/contents/404';
+import Error404Contents from '../contents/404';
 
 import type { ReactElement } from 'react';
 

@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-import Logo from '@/components/Logo';
+import Logo from '../Logo';
 
 interface NavLogoProps {
   href: string;

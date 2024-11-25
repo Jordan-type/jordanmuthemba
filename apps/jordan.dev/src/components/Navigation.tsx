@@ -1,14 +1,14 @@
 import clsx from 'clsx';
 
-import { GitHubIcon, TwitterIcon } from '@/components/Icons';
-import NavIcon from '@/components/navigations/NavIcon';
-import NavIconQuickAccess from '@/components/navigations/NavIconQuickAccess';
-import NavLink from '@/components/navigations/NavLink';
-import NavLinkDropdown from '@/components/navigations/NavLinkDropdown';
-import NavLinkExpanded from '@/components/navigations/NavLinkExpanded';
-import NavLogo from '@/components/navigations/NavLogo';
+import { GitHubIcon, TwitterIcon } from './Icons';
+import NavIcon from './navigations/NavIcon';
+import NavIconQuickAccess from './navigations/NavIconQuickAccess';
+import NavLink from './navigations/NavLink';
+import NavLinkDropdown from './navigations/NavLinkDropdown';
+import NavLinkExpanded from './navigations/NavLinkExpanded';
+import NavLogo from './navigations/NavLogo';
 
-import useOnScroll from '@/hooks/useOnScroll';
+import useOnScroll from '../hooks/useOnScroll';
 
 const workLinks = [
   { title: 'Skills & Tools', href: '/work/skills-and-tools' },

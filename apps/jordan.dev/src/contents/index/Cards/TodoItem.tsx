@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 
-import { CalendarIcon } from '@/components/Icons';
+import { CalendarIcon } from '../../../components/Icons';
 
 export type TodoItemState = 'spacing' | 'typography' | 'colors' | 'effects';
 

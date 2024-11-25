@@ -1,10 +1,10 @@
-import { getSortedPosts } from '@/lib/posts';
+import { getSortedPosts } from '../lib/posts';
 
-import BlogContents from '@/contents/blog';
-import HeaderImage from '@/contents/blog/HeaderImage';
-import Page from '@/contents-layouts/Page';
+import BlogContents from '../contents/blog';
+import HeaderImage from '../contents/blog/HeaderImage';
+import Page from '../contents-layouts/Page';
 
-import type { BlogContentsProps } from '@/contents/blog';
+import type { BlogContentsProps } from '../contents/blog';
 import type { GetStaticProps } from 'next';
 
 type BlogProps = {

@@ -1,6 +1,6 @@
 import useSWR from 'swr';
 
-import fetcher from '@/utils/fetcher';
+import fetcher from '../utils/fetcher';
 
 export default function useNewPosts() {
   const {

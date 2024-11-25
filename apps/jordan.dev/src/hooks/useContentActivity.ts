@@ -1,8 +1,8 @@
 import useSWR from 'swr';
 
-import fetcher from '@/utils/fetcher';
+import fetcher from '../utils/fetcher';
 
-import type { TContentActivity } from '@/types';
+import type { TContentActivity } from '../types';
 
 export default function useContentActivity() {
   const {

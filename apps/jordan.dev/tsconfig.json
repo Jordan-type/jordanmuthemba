@@ -1,9 +1,9 @@
 {
   "extends": "../../packages/tsconfig/nextjs.json",
   "compilerOptions": {
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["apps/jordan.dev/src/*"]
+      "@/*": ["src/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

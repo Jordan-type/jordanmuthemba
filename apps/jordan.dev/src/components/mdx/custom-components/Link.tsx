@@ -1,9 +1,9 @@
 import clsx from 'clsx';
 import NextLink from 'next/link';
 
-import { ExternalLink, MailIcon } from '@/components/Icons';
+import { ExternalLink, MailIcon } from '../../Icons';
 
-import { urlType } from '@/helpers/mdx';
+import { urlType } from '../../../helpers/mdx';
 
 import type { AnchorHTMLAttributes, DetailedHTMLProps } from 'react';
 

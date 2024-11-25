@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import { PropsWithChildren, useRef, useState } from 'react';
 
-import { ClipboardIcon } from '@/components/Icons';
+import { ClipboardIcon } from '../Icons';
 
 interface CodeFooterProps {
   lines?: number;

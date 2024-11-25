@@ -1,6 +1,6 @@
-import { getNewPosts } from '@/lib/meta';
+import { getNewPosts } from '../../../lib/meta';
 
-import type { TApiResponse } from '@/types';
+import type { TApiResponse } from '../../../types';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 export default async function handler(

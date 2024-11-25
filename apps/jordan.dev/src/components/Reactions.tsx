@@ -4,14 +4,14 @@ import { m, useAnimationControls } from 'framer-motion';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 
-import EmojiReaction from '@/components/EmojiReaction';
-import InsightButton from '@/components/InsightButton';
-import ShareButton from '@/components/ShareButton';
+import EmojiReaction from './EmojiReaction';
+import InsightButton from './InsightButton';
+import ShareButton from './ShareButton';
 
-import useInsight from '@/hooks/useInsight';
-import useScrollSpy from '@/hooks/useScrollSpy';
+import useInsight from '../hooks/useInsight';
+import useScrollSpy from '../hooks/useScrollSpy';
 
-import { MAX_REACTIONS_PER_SESSION } from '@/constants/app';
+import { MAX_REACTIONS_PER_SESSION } from '../constants/app';
 
 import type { PropsWithChildren } from 'react';
 

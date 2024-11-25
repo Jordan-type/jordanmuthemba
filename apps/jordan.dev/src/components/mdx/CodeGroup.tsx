@@ -3,11 +3,11 @@ import { Tab } from '@headlessui/react';
 import clsx from 'clsx';
 import { Children } from 'react';
 
-import { Pre } from '@/components/mdx/custom-components/Pre';
+import { Pre } from './custom-components/Pre';
 
-import { formatLang } from '@/helpers/mdx';
+import { formatLang } from '../../helpers/mdx';
 
-import type { PreProps } from '@/components/mdx/custom-components/Pre';
+import type { PreProps } from './custom-components/Pre';
 import type { PropsWithChildren, ReactElement } from 'react';
 
 function CodeGroupFile({ children = null }: PropsWithChildren) {

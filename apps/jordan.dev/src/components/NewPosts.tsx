@@ -2,9 +2,9 @@ import clsx from 'clsx';
 import { m } from 'framer-motion';
 import Link from 'next/link';
 
-import useNewPosts from '@/hooks/useNewPosts';
+import useNewPosts from '../hooks/useNewPosts';
 
-import { relativeTime } from '@/helpers/date';
+import { relativeTime } from '../helpers/date';
 
 const animation = {
   hide: { y: -32, opacity: 0 },

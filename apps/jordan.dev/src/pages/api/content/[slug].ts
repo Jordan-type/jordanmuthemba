@@ -1,14 +1,14 @@
 import { z } from 'zod';
 
-import { getSessionId } from '@/helpers/server';
+import { getSessionId } from '../../../helpers/server';
 import {
   getContentMeta,
   getReactions,
   getReactionsBy,
   getSectionMeta,
-} from '@/lib/meta';
+} from '../../../lib/meta';
 
-import type { TApiResponse, TContentMetaDetail } from '@/types';
+import type { TApiResponse, TContentMetaDetail } from '../../../types';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 export default async function handler(

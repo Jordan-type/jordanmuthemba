@@ -1,12 +1,12 @@
 import { ContentType, ReactionType } from '@prisma/client';
 import { z } from 'zod';
 
-import { getSessionId } from '@/helpers/server';
-import { getReactionsBy, setReaction } from '@/lib/meta';
+import { getSessionId } from '../../../helpers/server';
+import { getReactionsBy, setReaction } from '../../../lib/meta';
 
-import { MAX_REACTIONS_PER_SESSION } from '@/constants/app';
+import { MAX_REACTIONS_PER_SESSION } from '../../../constants/app';
 
-import type { TApiResponse, TContentMetaDetail } from '@/types';
+import type { TApiResponse, TContentMetaDetail } from '../../../types';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 export default async function handler(

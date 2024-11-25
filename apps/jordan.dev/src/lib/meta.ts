@@ -1,10 +1,10 @@
 /* eslint-disable no-template-curly-in-string */
 import jsonata from 'jsonata';
 
-import dayjs from '@/utils/dayjs';
-import { prisma } from '@/utils/prisma';
+import dayjs from '../utils/dayjs';
+import { prisma } from '../utils/prisma';
 
-import type { TContentActivity, TContentMeta, TReaction } from '@/types';
+import type { TContentActivity, TContentMeta, TReaction } from '../types';
 import type { ContentType, ReactionType, ShareType } from '@prisma/client';
 
 export const getAllContentMeta = async (): Promise<

@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 
-import { SkeletonMd } from '@/components/wireframes/Skeletons';
+import { SkeletonMd } from './Skeletons';
 
 import type { PropsWithChildren, ReactNode } from 'react';
 
