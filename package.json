@@ -9,10 +9,6 @@
     "clean": "turbo run clean",
     "format": "prettier --write ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
   "packageManager": "pnpm@9.12.3",
   "dependencies": {
     "eslint": "^9.15.0",
